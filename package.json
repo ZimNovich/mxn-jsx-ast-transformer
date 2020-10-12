@@ -1,0 +1,43 @@
+{
+	"name": "mxn-jsx-ast-transformer",
+	"main": "mxn-jsx-ast-transformer.js",
+	"description": "MXN JSX AST Transformer - transforms JSX AST into ESTree-compilant AST with JS call expressions",
+	"version": "0.8.0",
+	"homepage": "https://github.com/zimnovich/mxn-jsx-ast-transformer",
+	"license": "MIT",
+	"author": {
+		"name": "Ilya Zimnovich",
+		"email": "zimnovich@gmail.com"
+	},
+	"keywords": [
+		"jsx",
+		"react",
+		"transpile",
+		"transpiler",
+		"transform",
+		"ast",
+		"vdom",
+		"javascript"
+	],
+	"dependencies": {
+		"estree-walker": "^2.0.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/zimnovich/mxn-jsx-ast-transformer"
+	},
+	"bugs": {
+		"url": "https://github.com/zimnovich/mxn-jsx-ast-transformer/issues"
+	},
+	"scripts": {
+		"jsx-transpile": "node bin/mxn-jsx-ast-transformer",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"jsx-transpile": "bin/mxn-jsx-ast-transformer"
+	},
+	"files": [
+		"bin",
+		"mxn-jsx-ast-transformer.js"
+	]
+}
