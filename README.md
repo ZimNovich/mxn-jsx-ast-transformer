@@ -9,7 +9,7 @@ Transforms JSX AST into ESTree-compilant AST with JS call expressions.
 
 Requiring this module provides you with an Acorn plugin that you can use like this:
 ```javascript
-const conv = require("mxn-jsx-transpiler");
+const conv = require("mxn-jsx-ast-transformer");
 let ast_new = conv(ast, { factory: "h" });
 ```
 
