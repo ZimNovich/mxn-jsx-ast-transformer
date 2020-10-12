@@ -19,7 +19,7 @@ let ast_new = transform(ast, { factory: "h" });
 
 **Parameters**
 
- * ast {Object} - babel ast to transform JSX in
+ * ast {Object} - ESTree-compilant AST to transform JSX in
  * pragma {String} - pragma to use, e.g. React.createElement
 
 <dl>
