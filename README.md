@@ -8,9 +8,12 @@ Transforms JSX AST into ESTree-compilant AST with JS call expressions.
 ## Usage
 
 We suggest you to load the module via `require` until the stabilization of ES modules in node:
-
 ```javascript
 const transform = require("mxn-jsx-ast-transformer");
+```
+
+Now you can transform all JSX entries into JS calls in ESTree-compilant AST like this:
+```javascript
 let ast_new = transform(ast, { factory: "h" });
 ```
 
