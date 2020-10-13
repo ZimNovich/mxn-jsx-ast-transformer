@@ -19,8 +19,8 @@ let ast_new = transform(ast, { factory: "h" });
 
 Where
 
- * ast {Object} - ESTree-compilant JSX AST to transform JSX in
- * factory {String} - factory function to use, e.g. `h`, `m`, `React.createElement`
+ - `ast` {Object} - ESTree-compilant JSX AST to transform JSX in
+ - `factory` {String} - factory function to use, e.g. `h`, `m`, `React.createElement`
 
 <dl>
   <dt>ast {Object}</dt>
