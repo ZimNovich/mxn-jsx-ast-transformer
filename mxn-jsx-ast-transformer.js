@@ -179,7 +179,7 @@ var MXNJSXConv = function(tree, options)
     return tree;
 };
 
-MXNJSXConv.version = "0.8.0";
+MXNJSXConv.version = "0.8.1";
 
 // export the module
 module.exports = MXNJSXConv;
