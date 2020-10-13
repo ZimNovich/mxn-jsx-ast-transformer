@@ -12,15 +12,15 @@ We suggest you to load the module via `require` until the stabilization of ES mo
 const transform = require("mxn-jsx-ast-transformer");
 ```
 
-Now you can transform all JSX entries into JS calls in ESTree-compilant AST like this:
+Now you can transform all JSX entries into JS calls like this:
 ```javascript
 let ast_new = transform(ast, { factory: "h" });
 ```
 
-**Parameters**
+Where
 
  * ast {Object} - ESTree-compilant AST to transform JSX in
- * pragma {String} - pragma to use, e.g. React.createElement
+ * factory {String} - pragma to use, e.g. React.createElement
 
 <dl>
   <dt>ast {Object}</dt>
