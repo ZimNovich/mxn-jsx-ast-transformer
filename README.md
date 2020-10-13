@@ -21,14 +21,7 @@ Where
  - `jsx_ast` {Object} - ESTree-compilant JSX AST to transform JSX in
  - `factory` {String} - factory function to use, e.g. `h`, `m`, `React.createElement`
 
-<dl>
-  <dt>ast {Object}</dt>
-  <dd>ESTree-compilant JSX AST to transform JSX in</dd>
-  <dt>factory {String}</dt>
-  <dd>factory function to use, e.g. `h`, `m`, `React.createElement`</dd>
-</dl>
-
-Please note that this tool only converts JSX AST into regular ES5-compliant JavaScript AST. If you want to transpile your source code, check out Babel and Buble transpilers.
+Please note that this tool only converts JSX AST into regular ES5-compliant JavaScript AST. If you want to transpile your source code, check out [mxn-jsx-transpiler](https://github.com/ZimNovich/mxn-jsx-transpiler) or use a code like:
 
 ```javascript
 // Acorn & Astring
