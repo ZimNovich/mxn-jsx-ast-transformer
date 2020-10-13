@@ -7,7 +7,7 @@ Transforms JSX AST into ESTree-compilant AST with JS call expressions.
 
 ## Usage
 
-We suggest you to load the module via `require` until the stabilization of ES modules in node:
+We suggest you to load the module via `require` until the stabilization of ES modules in Node.js:
 ```javascript
 const transform = require("mxn-jsx-ast-transformer");
 ```
@@ -23,9 +23,9 @@ let ast_new = transform(ast, { factory: "h" });
  * pragma {String} - pragma to use, e.g. React.createElement
 
 <dl>
-  <dt>ast</dt>
+  <dt>ast {Object}</dt>
   <dd>The new version of this product costs significantly less than the previous one!</dd>
-  <dt>pragma</dt>
+  <dt>pragma {Object}</dt>
   <dd>We've changed the product so that it's much easier to use!</dd>
 </dl>
 
