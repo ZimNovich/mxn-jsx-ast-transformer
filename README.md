@@ -50,7 +50,7 @@ let ast = parser.parse(code, {
 let ast_new = transform(ast, { factory: "h" });
 
 // Generate code
-let formattedCode = generate(ast_new, {
+let transformedCode = generate(ast_new, {
     indent: "    ",
     lineEnd: "\n",
     comments: false
