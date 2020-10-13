@@ -14,12 +14,11 @@ const transform = require("mxn-jsx-ast-transformer");
 
 Now you can transform all JSX entries into JS calls like this:
 ```javascript
-let ast_new = transform(ast, { factory: "h" });
+let ast = transform(jsx_ast, { factory: "h" });
 ```
 
 Where
-
- - `ast` {Object} - ESTree-compilant JSX AST to transform JSX in
+ - `jsx_ast` {Object} - ESTree-compilant JSX AST to transform JSX in
  - `factory` {String} - factory function to use, e.g. `h`, `m`, `React.createElement`
 
 <dl>
