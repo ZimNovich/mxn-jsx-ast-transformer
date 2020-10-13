@@ -1,6 +1,6 @@
 # mxn-jsx-ast-transformer
 
-Transforms JSX AST into ESTree-compilant JS AST
+Transforms JSX AST into regular JS AST
 
 - ~5.5kb size
 - ~2.5kb minified + gzipped
@@ -12,13 +12,13 @@ We suggest you to load the module via `require` until the stabilization of ES mo
 const transform = require("mxn-jsx-ast-transformer");
 ```
 
-Now you can transform all JSX entries into JS calls like this:
+Now you can transform all JSX elements into JS calls like this:
 ```javascript
 let ast = transform(jsx_ast, { factory: "h" });
 ```
 
 Where
- - `jsx_ast` {Object} - ESTree-compilant JSX AST to transform JSX in
+ - `jsx_ast` {Object} - ESTree-compilant JSX AST to transform to regular JS AST
  - `factory` {String} - factory function to use, e.g. `h`, `m`, `React.createElement`
 
 Please note that this tool only converts JSX AST into regular ES5-compliant JavaScript AST. If you want to transpile your source code, check out [mxn-jsx-transpiler](https://github.com/ZimNovich/mxn-jsx-transpiler) or use a code like:
