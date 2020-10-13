@@ -1,6 +1,6 @@
 # mxn-jsx-ast-transformer
 
-Transforms JSX AST into ESTree-compilant AST with JS call expressions.
+Transforms JSX AST into ESTree-compilant JS AST
 
 - ~5.5kb size
 - ~2.5kb minified + gzipped
@@ -28,7 +28,6 @@ Please note that this tool only converts JSX AST into regular ES5-compliant Java
 const acorn = require("acorn");
 const acornJsx = require("acorn-jsx");
 const { generate } = require("astring");
-const { JsxGenerator } = require("astring-jsx");
 
 // MXN JSX AST Transformer
 const transform = require("mxn-jsx-ast-transformer");
@@ -54,9 +53,7 @@ let ast_new = transform(ast, { factory: "h" });
 let formattedCode = generate(ast_new, {
     indent: "    ",
     lineEnd: "\n",
-    comments: false,
-    generator: JsxGenerator
-    //sourceMap: map
+    comments: false
 });
 ```
 
