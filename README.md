@@ -2,8 +2,8 @@
 
 Transforms JSX AST into ESTree-compilant AST with JS call expressions.
 
-- ~3kb minified
-- ~1.5kb minified + gzipped
+- ~5.5kb size
+- ~2.5kb minified + gzipped
 
 ## Usage
 
