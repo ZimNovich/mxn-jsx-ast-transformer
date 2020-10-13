@@ -62,4 +62,4 @@ let formattedCode = generate(ast_new, {
 
 ## License
 
-This plugin is issued under the MIT license.
+This module is released under the MIT license.
