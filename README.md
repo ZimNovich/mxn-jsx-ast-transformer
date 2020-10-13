@@ -19,14 +19,14 @@ let ast_new = transform(ast, { factory: "h" });
 
 Where
 
- * ast {Object} - ESTree-compilant AST to transform JSX in
- * factory {String} - pragma to use, e.g. React.createElement
+ * ast {Object} - ESTree-compilant JSX AST to transform JSX in
+ * factory {String} - factory function to use, e.g. `h`, `m`, `React.createElement`
 
 <dl>
   <dt>ast {Object}</dt>
-  <dd>The new version of this product costs significantly less than the previous one!</dd>
-  <dt>pragma {Object}</dt>
-  <dd>We've changed the product so that it's much easier to use!</dd>
+  <dd>ESTree-compilant JSX AST to transform JSX in</dd>
+  <dt>factory {String}</dt>
+  <dd>factory function to use, e.g. `h`, `m`, `React.createElement`</dd>
 </dl>
 
 Please note that this tool only converts JSX AST into regular ES5-compliant JavaScript AST. If you want to transpile your source code, check out Babel and Buble transpilers.
