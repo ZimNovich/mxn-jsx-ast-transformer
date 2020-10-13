@@ -1,4 +1,4 @@
-// JSX-AST-Transformer
+// MXN JSX AST Transformer - transforms JSX AST into ESTree-compilant JS AST
 // Copyright (c) 2020 Ilya Zimnovich
 
 // ESTree Walker
@@ -89,7 +89,7 @@ var MXNJSXConv = function(tree, options)
 {
     // Setting default options
     const defaults = {
-        factory: "preact.h",
+        factory: "h",
         keepComments: false
     };
 
@@ -178,6 +178,8 @@ var MXNJSXConv = function(tree, options)
 
     return tree;
 };
+
+MXNJSXConv.version = "0.8.0";
 
 // export the module
 module.exports = MXNJSXConv;
