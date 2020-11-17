@@ -21,16 +21,11 @@ Where
  - `jsx_ast` {Object} - ESTree-compilant JSX AST to transform to regular JS AST
  - `options` {Object} - options for JSX ⇒ JS transformation
 
-options
-
-The default values are shown after each option key.
-
+The `options` object:
 ```javascript
 {
     factory: "h",         // factory function to use, e.g. `h`, `m`, `React.createElement`
-    quotePropNames: true, // request body. can be null, a string, a Buffer, a Blob, or a Node.js Readable stream
-    redirect: 'follow',   // set to `manual` to extract redirect headers, `error` to reject redirect
-    signal: null,         // pass an instance of AbortSignal to optionally abort requests
+    quotePropNames: true  // put property names into quotes
 }
 ```
 
