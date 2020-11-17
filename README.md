@@ -19,9 +19,9 @@ let ast = transform(jsx_ast[, options]);
 
 Where
  - `jsx_ast` {Object} - ESTree-compilant JSX AST to transform to regular JS AST
- - `options` {Object} - Options to create a custom mapping for the javascript output
+ - `options` {Object} - options for JSX => JS transformation
 
-Below is advanced usage example:
+Below is an advanced usage example:
 
 ```javascript
 let ast = transform(jsx_ast, { factory: "h", quotePropNames: true });
