@@ -18,10 +18,10 @@ let ast = transform(jsx_ast[, options]);
 ```
 
 Where
- - `jsx_ast` {Object} -- ESTree-compilant JSX AST to transform to regular JS AST
- - `options` {Object} -- factory function to use, e.g. `h`, `m`, `React.createElement`
- - `quotePropNames` {Boolean} - if set to true then property names will be put into quotes
+ - `jsx_ast` {Object} - ESTree-compilant JSX AST to transform to regular JS AST
+ - `options` {Object} - Options to create a custom mapping for the javascript output
 
+Below is advanced usage example:
 
 ```javascript
 let ast = transform(jsx_ast, { factory: "h", quotePropNames: true });
