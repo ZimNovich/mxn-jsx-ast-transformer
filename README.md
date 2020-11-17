@@ -21,6 +21,21 @@ Where
  - `jsx_ast` {Object} - ESTree-compilant JSX AST to transform to regular JS AST
  - `options` {Object} - options for JSX ⇒ JS transformation
 
+options
+
+The default values are shown after each option key.
+
+```javascript
+{
+    // These properties are part of the Fetch Standard
+    method: 'GET',
+    headers: {},        // request headers. format is the identical to that accepted by the Headers constructor (see below)
+    body: null,         // request body. can be null, a string, a Buffer, a Blob, or a Node.js Readable stream
+    redirect: 'follow', // set to `manual` to extract redirect headers, `error` to reject redirect
+    signal: null,       // pass an instance of AbortSignal to optionally abort requests
+}
+```
+
 Below is an advanced usage example:
 
 ```javascript
