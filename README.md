@@ -27,7 +27,7 @@ The default values are shown after each option key.
 
 ```javascript
 {
-    factory: "h",         // request headers. format is the identical to that accepted by the Headers constructor (see below)
+    factory: "h",         // factory function to use, e.g. `h`, `m`, `React.createElement`
     quotePropNames: true, // request body. can be null, a string, a Buffer, a Blob, or a Node.js Readable stream
     redirect: 'follow',   // set to `manual` to extract redirect headers, `error` to reject redirect
     signal: null,         // pass an instance of AbortSignal to optionally abort requests
