@@ -12,10 +12,16 @@ We suggest you to load the module via `require` until the stabilization of ES mo
 const transform = require("mxn-jsx-ast-transformer");
 ```
 
-Now you can transform all JSX elements into JS calls like this:
+Now you can transform ("desugar") all JSX elements into JS calls like this:
 ```javascript
-let ast = transform(jsx_ast, [options]);
+let ast = transform(jsx_ast[, options]);
 ```
+
+Where
+ - `jsx_ast` {Object} -- ESTree-compilant JSX AST to transform to regular JS AST
+ - `options` {Object} -- factory function to use, e.g. `h`, `m`, `React.createElement`
+ - `quotePropNames` {Boolean} - if set to true then property names will be put into quotes
+
 
 ```javascript
 let ast = transform(jsx_ast, { factory: "h", quotePropNames: true });
