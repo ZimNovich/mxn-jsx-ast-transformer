@@ -14,6 +14,10 @@ const transform = require("mxn-jsx-ast-transformer");
 
 Now you can transform all JSX elements into JS calls like this:
 ```javascript
+let ast = transform(jsx_ast, [options]);
+```
+
+```javascript
 let ast = transform(jsx_ast, { factory: "h", quotePropNames: true });
 ```
 
