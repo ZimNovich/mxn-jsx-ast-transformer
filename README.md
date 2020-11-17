@@ -14,12 +14,13 @@ const transform = require("mxn-jsx-ast-transformer");
 
 Now you can transform all JSX elements into JS calls like this:
 ```javascript
-let ast = transform(jsx_ast, { factory: "h" });
+let ast = transform(jsx_ast, { factory: "h", quotePropNames: true });
 ```
 
 Where
  - `jsx_ast` {Object} - ESTree-compilant JSX AST to transform to regular JS AST
  - `factory` {String} - factory function to use, e.g. `h`, `m`, `React.createElement`
+ - `quotePropNames` {Boolean} - if set to true then property names will be put into quotes
 
 Please note that this tool only converts JSX AST into regular ES5-compliant JavaScript AST. If you want to transpile your source code, check out [mxn-jsx-transpiler](https://github.com/ZimNovich/mxn-jsx-transpiler) or use a code like:
 
