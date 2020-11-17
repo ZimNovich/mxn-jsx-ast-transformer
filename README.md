@@ -32,13 +32,8 @@ The default values for the `options` object are shown below:
 Below is an advanced usage example:
 
 ```javascript
-let ast = transform(jsx_ast, { factory: "h", quotePropNames: true });
+let ast = transform(jsx_ast, { factory: "React.createElement", quotePropNames: false });
 ```
-
-Where
- - `jsx_ast` {Object} - ESTree-compilant JSX AST to transform to regular JS AST
- - `factory` {String} - factory function to use, e.g. `h`, `m`, `React.createElement`
- - `quotePropNames` {Boolean} - if set to true then property names will be put into quotes
 
 Please note that this tool only converts JSX AST into regular ES5-compliant JavaScript AST. If you want to transpile your source code, check out [mxn-jsx-transpiler](https://github.com/ZimNovich/mxn-jsx-transpiler) or use a code like:
 
