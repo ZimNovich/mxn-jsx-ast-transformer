@@ -21,7 +21,7 @@ Where
  - `jsx_ast` {Object} - ESTree-compilant JSX AST to transform to regular JS AST
  - `options` {Object} - options for JSX ⇒ JS transformation
 
-The `options` object:
+The default values for the `options` object are shown below:
 ```javascript
 {
     factory: "h",         // factory function to use, e.g. `h`, `m`, `React.createElement`
