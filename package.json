@@ -2,7 +2,7 @@
 	"name": "mxn-jsx-ast-transformer",
 	"main": "mxn-jsx-ast-transformer.js",
 	"description": "Transforms JSX AST into regular JS AST",
-	"version": "0.8.6",
+	"version": "0.8.7",
 	"homepage": "https://github.com/ZimNovich/mxn-jsx-ast-transformer",
 	"license": "MIT",
 	"author": {
