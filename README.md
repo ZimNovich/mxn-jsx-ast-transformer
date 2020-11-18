@@ -1,6 +1,8 @@
 # mxn-jsx-ast-transformer
 
 [![npm@latest](https://badgen.net/npm/v/mxn-jsx-ast-transformer)](https://www.npmjs.com/package/mxn-jsx-ast-transformer)
+[![Downloads](https://img.shields.io/npm/dm/mxn-jsx-ast-transformer.svg)](https://npmjs.com/mxn-jsx-ast-transformer)
+[![Install size](https://packagephobia.now.sh/badge?p=mxn-jsx-ast-transformer)](https://packagephobia.now.sh/result?p=mxn-jsx-ast-transformer)
 
 Transforms JSX AST into regular JS AST
 
