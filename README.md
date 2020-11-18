@@ -74,3 +74,8 @@ let transformedCode = generate(ast_new, {
 ## License
 
 This module is released under the MIT license.
+
+## Related
+
+- [mxn-jsx-ast-transformer](https://github.com/ZimNovich/mxn-jsx-ast-transformer) - Transforms JSX AST into regular JS AST
+- [rollup-plugin-mxn-jsx](https://github.com/ZimNovich/rollup-plugin-mxn-jsx) - Rollup JSX plugin that transpiles JSX into JavaScript
