@@ -1,5 +1,7 @@
 # mxn-jsx-ast-transformer
 
+[![npm@latest](https://badgen.net/npm/v/mxn-jsx-ast-transformer)](https://www.npmjs.com/package/mxn-jsx-ast-transformer)
+
 Transforms JSX AST into regular JS AST
 
 - ~5.5kb size
