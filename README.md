@@ -3,8 +3,8 @@
 [![npm@latest](https://badgen.net/npm/v/mxn-jsx-ast-transformer)](https://www.npmjs.com/package/mxn-jsx-ast-transformer)
 [![Downloads](https://img.shields.io/npm/dm/mxn-jsx-ast-transformer.svg)](https://npmjs.com/mxn-jsx-ast-transformer)
 [![Install size](https://packagephobia.now.sh/badge?p=mxn-jsx-ast-transformer)](https://packagephobia.now.sh/result?p=mxn-jsx-ast-transformer)
-	<a href="https://packagephobia.now.sh/result?p=node-fetch"><img src="https://badgen.net/packagephobia/install/node-fetch" alt="Current version"></a>
-	<a href="https://www.npmjs.com/package/node-fetch"><img src="https://img.shields.io/npm/v/node-fetch" alt="Install size"></a>
+	<a href="https://packagephobia.now.sh/result?p=mxn-jsx-ast-transformer"><img src="https://badgen.net/packagephobia/install/mxn-jsx-ast-transformer" alt="Current version"></a>
+	<a href="https://www.npmjs.com/package/mxn-jsx-ast-transformer"><img src="https://img.shields.io/npm/v/mxn-jsx-ast-transformer" alt="Install size"></a>
 
 Transforms JSX AST into regular JS AST
 
